@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="HelloWorld" project="TemplateMethodPattern" 
-    file="/TemplateMethodPattern/src/HelloWorld.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="113" x="250" y="84"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="2" language="java" name="Coffee" project="TemplateMethodPattern" 
+  <class id="1" language="java" name="Coffee" project="TemplateMethodPattern" 
     file="/TemplateMethodPattern/src/Coffee.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="171" width="148" x="403" y="84"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -19,7 +10,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="Tea" project="TemplateMethodPattern" file="/TemplateMethodPattern/src/Tea.java" 
+  <class id="2" language="java" name="Tea" project="TemplateMethodPattern" file="/TemplateMethodPattern/src/Tea.java" 
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="171" width="122" x="591" y="84"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -28,7 +19,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="CaffeineBeverage" project="TemplateMethodPattern" 
+  <class id="3" language="java" name="CaffeineBeverage" project="TemplateMethodPattern" 
     file="/TemplateMethodPattern/src/CaffeineBeverage.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="545" y="437"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -37,13 +28,13 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <generalization id="5">    
+  <generalization id="4">    
     <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="4"/>  
+    <end type="TARGET" refId="3"/>  
   </generalization>  
-  <generalization id="6">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="4"/>  
+  <generalization id="5">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
   </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
